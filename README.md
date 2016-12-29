@@ -7,6 +7,7 @@
 </ul>
 <p>Example creation usage:</p>
 <code>https://jc-fcc-url-shortener.herokuapp.com/smash/https://www.google.com</code>
+
 <code>https://jc-fcc-url-shortener.herokuapp.com/smash/http://jordancarney.com</code>
 <p>Example creation output</p>
 <code>{<br>
