@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FCC URL Shortener | Jordan Carney</title>
+    <style>
+      * {
+        font-family: arial, helvetica, sans-serif;
+      }
+      code {
+        display: block;
+        padding: 2px 4px;
+        font-size: 90%;
+        color: #c7254e;
+        background-color: #f9f2f4;
+      }
+    </style>
+</head>
+
+<body>
+    <h1>Free Code Camp Microservice: URL Shortener</h1>
+    <p class="intro">User stories:</p>
+
+    <ul>
+        <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+        <li>When I visit that shortened URL, it will redirect me to my original link.</li>
+    </ul>
+    <p>Example creation usage:</p>
+    <code>https://jc-fcc-url-shortener.herokuapp.com/smash/https://www.google.com</code>
+    <code>https://jc-fcc-url-shortener.herokuapp.com/smash/http://jordancarney.com</code>
+    <p>Example creation output</p>
+    <code>{ "original_url":"http://jordancarney.com", "short_url":"https://jc-fcc-url-shortener.herokuapp.com/[???]" }</code>
+    <h2>Usage:</h2>
+    <code>https://jc-fcc-url-shortener.herokuapp.com/[???]</code>
+    <p>Will redirect to:</p>
+    <code>https://www.google.com/</code>
+    <hr>
+    <footer><p>Copyright &copy; 2016 &middot; <a href="http://jordancarney.com" target="_blank">Jordan Carney</a></p></footer>
+</body>
+
+</html>
