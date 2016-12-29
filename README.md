@@ -6,9 +6,9 @@
     <li>When I visit that shortened URL, it will redirect me to my original link.</li>
 </ul>
 <p>Example creation usage:</p>
-<code>https://jc-fcc-url-shortener.herokuapp.com/smash/https://www.google.com</code>
-
-<code>https://jc-fcc-url-shortener.herokuapp.com/smash/http://jordancarney.com</code>
+```
+https://jc-fcc-url-shortener.herokuapp.com/smash/http://jordancarney.com
+```
 <p>Example creation output</p>
 <code>{<br>
   "shortUrl":"https://jc-fcc-url-shortener.herokuapp.com/zvvyp",<br>
